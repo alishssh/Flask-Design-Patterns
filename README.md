@@ -1,26 +1,26 @@
 **Documentation**
 ____________________________________________________________________________________________________________________________
 
-Flask DesignPatterns
+Flask Design Patterns
 
 **Overview**
 ____________________________________________________________________________________________________________________________
 
 Factory Pattern           Multi-instanceapps (e.g., Dev/Test/Prod environments)
 
-Blueprints       Largeapplications (e.g., Auth, Products, Orders)
+Blueprints                Largeapplications (e.g., Auth, Products, Orders)
 
-Singleton         Databaseconnections (PostgreSQL, Redis)
+Singleton                 Databaseconnections (PostgreSQL, Redis)
 
-Repository      Cleandatabase access (e.g., Blog, CRM)
+Repository                Cleandatabase access (e.g., Blog, CRM)
 
-Service Layer Businesslogic (e.g., Stock predictions, Payments)
+Service Layer             Businesslogic (e.g., Stock predictions, Payments)
 
-Decorator        Security(e.g., Role-based access, Logging)
+Decorator                 Security(e.g., Role-based access, Logging)
 
-Observer         Event-drivenfeatures (e.g., Notifications, Logging)
+Observer                  Event-drivenfeatures (e.g., Notifications, Logging)
 
-Adapter           ExternalAPI integrations (e.g., Stripe, PayPal)
+Adapter                   ExternalAPI integrations (e.g., Stripe, PayPal)
 
 ✅ For small apps → Factory + Blueprints
 
