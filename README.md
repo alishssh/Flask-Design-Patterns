@@ -1,9 +1,10 @@
 **Documentation**
-____________________________________________________________________________________________________________________________
 
 Flask DesignPatterns
+____________________________________________________________________________________________________________________________
 
 **Overview**
+____________________________________________________________________________________________________________________________
 
 Factory Pattern           Multi-instanceapps (e.g., Dev/Test/Prod environments)
 
@@ -32,12 +33,14 @@ Adapter           ExternalAPI integrations (e.g., Stripe, PayPal)
 ✅ For single DB connection → Singleton
 
 **TechStack**
+____________________________________________________________________________________________________________________________
 
 Backend (Flask)
 
 Database (PostgreSQL)
 
 **ProjectStructure**
+____________________________________________________________________________________________________________________________
 
 /SMTMINTERN/Task6/
 
@@ -64,6 +67,7 @@ Database (PostgreSQL)
 │   ├──7.  adapter\_pattern.py
 
 **Step-By-StepImplementation**
+____________________________________________________________________________________________________________________________
 
 1.    Factory pattern
 
@@ -348,5 +352,6 @@ if \_\_name\_\_ =="\_\_main\_\_":
     app.run(debug=True)
 
 **Conclusion:**
+____________________________________________________________________________________________________________________________
 
 Thisdocumentation helps users to understand flask design patterns with handson codeexample. For more usecases go to other repositories here.
