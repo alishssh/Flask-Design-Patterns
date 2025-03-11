@@ -20,15 +20,15 @@ Observer         Event-drivenfeatures (e.g., Notifications, Logging)
 
 Adapter           ExternalAPI integrations (e.g., Stripe, PayPal)
 
-✅ Forsmall apps → Factory + Blueprints
+✅ For small apps → Factory + Blueprints
 
-✅ Forlarge apps → Repository + Service Layer
+✅ For large apps → Repository + Service Layer
 
-✅ Forauthentication → Decorator
+✅ For authentication → Decorator
 
-✅ For APIintegrations → Adapter
+✅ For API integrations → Adapter
 
-✅ Forsingle DB connection → Singleton
+✅ For single DB connection → Singleton
 
 **TechStack**
 
